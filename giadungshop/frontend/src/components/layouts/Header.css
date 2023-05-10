@@ -1,0 +1,70 @@
+.inputBox > span{
+    font-family: "Roboto";
+    animation: sliding 14s linear infinite;
+    display: block;
+}
+.mid-header{
+    background-color: rgb(63, 128, 248)
+}
+header{
+    background-color: rgb(63, 128, 248)
+}
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Poppins,sans-serif";
+  }
+  .space__beetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .pxy__10{
+    padding: 10px;
+  }
+  .flex{
+    display: flex;
+  }
+  .align__items__center{
+    align-items: center;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  .red{
+    color: red;
+  }
+  .pxz__20{
+    margin: 0px 15px;
+  }
+  .relative{
+    position: relative;
+    overflow: visible!important;
+  }
+  .rightOption.flex.align__items__center {
+    overflow: visible!important;
+  }
+  li{
+    padding: 0px 15px;
+    color: #000;
+    font-weight: 600;
+  }
+  .space__around{
+    justify-content: space-around;
+  }
+  .justify__content__center{
+    justify-content: center;
+  }
+@keyframes sliding{
+    0%{
+      transform: translateX(-70%);
+    }
+    100%{
+      transform: translateX(130%);
+    }
+  }
